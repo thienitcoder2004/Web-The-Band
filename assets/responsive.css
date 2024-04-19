@@ -1,0 +1,103 @@
+/* ------------------------ Laptop --------------------- */
+@media screen and (min-width: 1024px){
+    .pc-desktop{
+        display: block;
+    }
+}
+
+
+/* ------------------------ Tablet && Mobile--------------------- */
+@media screen and (max-width: 1023px) {
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    #footer .socials-list a{
+        margin: 0px 8px;
+    }
+
+    #footer .copyright{
+        padding: 12px 0px;
+    }
+
+    .contact-info{
+        line-height: 2;
+    }
+}
+
+
+/* ------------------------ Tablet --------------------- */
+@media screen and (min-width: 740px) and (max-width: 1023px){
+    .tablet{
+        display: block;
+    }
+}
+
+
+/* ------------------------ Mobile --------------------- */
+@media screen and (max-width: 576px){
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        padding: 5px 41px;
+        color: #fff;
+    }
+
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-item img {
+        width: 60%;
+    }
+
+    .member-name{
+        padding: 30px 0px;
+        font-weight: 600;
+    }
+
+    .contact-form{
+        margin-top: 16px;
+    }
+}
